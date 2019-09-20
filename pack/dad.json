@@ -733,7 +733,7 @@
         "position": 41,
         "quantity": 3,
         "side_code": "runner",
-        "text": "Your first [click] each turn must be spent to make a run or a play a <strong>run</strong> event.\nOnce per turn, you can spend [click][click] to break a subroutine on a piece of ice currently being encountered.",
+        "text": "Your first [click] each turn must be spent to make a run or play a <strong>run</strong> event.\nOnce per turn, you can spend [click][click] to break a subroutine on a piece of ice currently being encountered.",
         "title": "Always Be Running",
         "type_code": "resource",
         "uniqueness": true
@@ -769,7 +769,7 @@
         "position": 43,
         "quantity": 3,
         "side_code": "runner",
-        "text": "The first time each turn you access a card with a trash cost, you must trash it by paying its trash cost, if able.\nWhenever you access cards from HQ, access 1 additional card.",
+        "text": "The first time each turn you access a card with a trash cost, reveal it. You must trash that card by paying its trash cost, if able.\nWhenever you access cards from HQ, access 1 additional card.\n<errata>Errata from CR 1.2</errata>",
         "title": "Neutralize All Threats",
         "type_code": "resource",
         "uniqueness": true

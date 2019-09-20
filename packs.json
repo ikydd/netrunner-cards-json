@@ -153,6 +153,15 @@
         "size": 20
     },
     {
+        "code": "df",
+        "cycle_code": "ashes",
+        "date_release": "2019-03-18",
+        "ffg_id": null,
+        "name": "Downfall",
+        "position": 1,
+        "size": 65
+    },
+    {
         "code": "draft",
         "cycle_code": "draft",
         "date_release": null,
@@ -216,21 +225,21 @@
         "size": 20
     },
     {
-        "code": "fp",
-        "cycle_code": "genesis",
-        "date_release": "2013-05-30",
-        "ffg_id": null,
-        "name": "Future Proof",
-        "position": 6,
-        "size": 20
-    },
-    {
         "code": "fm",
         "cycle_code": "red-sand",
         "date_release": "2017-07-20",
         "ffg_id": 47,
         "name": "Free Mars",
         "position": 5,
+        "size": 20
+    },
+    {
+        "code": "fp",
+        "cycle_code": "genesis",
+        "date_release": "2013-05-30",
+        "ffg_id": null,
+        "name": "Future Proof",
+        "position": 6,
         "size": 20
     },
     {
@@ -369,6 +378,15 @@
         "size": 58
     },
     {
+        "code": "sc19",
+        "cycle_code": "sc19",
+        "date_release": "2018-12-21",
+        "ffg_id": null,
+        "name": "System Core 2019",
+        "position": 1,
+        "size": 147
+    },
+    {
         "code": "si",
         "cycle_code": "mumbad",
         "date_release": "2016-04-28",
@@ -493,6 +511,24 @@
         "name": "Upstalk",
         "position": 1,
         "size": 20
+    },
+    {
+        "code": "ur",
+        "cycle_code": "ashes",
+        "date_release": "2019-12-31",
+        "ffg_id": null,
+        "name": "Uprising",
+        "position": 3,
+        "size": 65
+    },
+    {
+        "code": "urbp",
+        "cycle_code": "ashes",
+        "date_release": "2019-09-09",
+        "ffg_id": null,
+        "name": "Uprising Booster Pack",
+        "position": 2,
+        "size": 7
     },
     {
         "code": "uw",

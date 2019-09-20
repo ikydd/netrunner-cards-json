@@ -1,5 +1,74 @@
 {
+    "$id": "https://github.com/Alsciende/netrunner-cards-json/blob/master/schema/card_schema.json",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "additionalProperties": false,
+    "oneOf": [
+        {
+            "properties": {
+                "type_code": {
+                    "const": "agenda"
+                }
+            },
+            "required": [
+                "advancement_cost",
+                "agenda_points"
+            ]
+        },
+        {
+            "properties": {
+                "type_code": {
+                    "enum": [
+                        "asset",
+                        "upgrade"
+                    ]
+                }
+            },
+            "required": [
+                "cost",
+                "trash_cost"
+            ]
+        },
+        {
+            "properties": {
+                "type_code": {
+                    "enum": [
+                        "ice"
+                    ]
+                }
+            },
+            "required": [
+                "cost",
+                "strength"
+            ]
+        },
+        {
+            "properties": {
+                "type_code": {
+                    "enum": [
+                        "event",
+                        "hardware",
+                        "operation",
+                        "program",
+                        "resource"
+                    ]
+                }
+            },
+            "required": [
+                "cost"
+            ]
+        },
+        {
+            "properties": {
+                "type_code": {
+                    "const": "identity"
+                }
+            },
+            "required": [
+                "influence_limit",
+                "minimum_deck_size"
+            ]
+        }
+    ],
     "properties": {
         "advancement_cost": {
             "minimum": 0,
